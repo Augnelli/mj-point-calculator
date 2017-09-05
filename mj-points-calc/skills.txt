@@ -1,0 +1,27 @@
+Skills and Costs
+
+General
+
+Bandage					30
+Small Weapons		 5
+Quickdeath			15/*
+Literacy				10
+Hardiness				40
+Vitality				20/30/+
+Karma						40
+Any Arms/Armor	double
+Read Magic			40
+Read Divine			40
+Last Rites			20/30/+
+Appraisal				 5/*
+
+Classes
+
+Finesse
+Might
+Precision
+Subtlety
+Sanctity
+Powe
+Devotion
+Sight

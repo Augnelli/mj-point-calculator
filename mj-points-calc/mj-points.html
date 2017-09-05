@@ -1,0 +1,124 @@
+<html>
+	<head>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<title>Mythical Journeys Points Calculator</title>
+		<link rel="stylesheet" href="mj-points.css">
+		<script src="mj-points.js"></script>
+		<noscript><!--no JS alternative--></noscript>
+
+	</head>
+
+	<body id="points-calculator">
+		
+		<div class="main">
+			<header>
+				
+				<h1>Mythical Journeys Point Calculator</h1>
+
+			</header>
+
+			<div class="calculator">
+
+				<div class="user-input">
+					<p>What is your name?</p>
+
+					<input class="name" type="text" placehoder="Character name...">
+					
+					<p>Select a race.</p>
+					
+					<select class="race">
+						<option hidden></option>
+						<option value="dwarf">Dwarf</option>
+						<option value="elf-grue">Elf, Grue</option>
+						<option value="elf-imperial">Elf, Imperial</option>
+						<option value="famori">Famori</option>
+						<option value="human">Human</option>
+						<option value="rakash">Ra'Kash</option>
+						<option value="warg">Warg</option>
+					</select>
+
+					<p>What basic classes do you have?</p>
+
+					<form class="classes">
+
+						<input type="checkbox" name="finesse" value="finesse">Finesse<br>
+						<input type="checkbox" name="might" value="might">Might<br>
+						<input type="checkbox" name="precision" value="precision">Precision<br>
+						<input type="checkbox" name="subtlety" value="subtlety">Subtlety<br>
+						<input type="checkbox" name="power" value="power">Power<br>
+						<input type="checkbox" name="sight" value="sight">Sight<br>
+						<input type="checkbox" name="devotion" value="devotion">Devotion<br>
+						<input type="checkbox" name="sanctity" value="sanctity">Sanctity<br>
+
+					</form>
+
+					<div class="skill-list">
+						<p>These are your available skills.</p>
+						<div class="general skills">
+							<form class="general">
+								<input type="number" min="0" max="1" name="bandage">Bandage<br>
+								<input type="number" min="0" max="1" name="small-weapon">Small Weapon<br>
+								<input type="number" min="0" name="quickdeath">Quickdeath<br>
+								<input type="number" min="0" max="1" name="literacy">Literacy<br>
+								<input type="number" min="0" max="1" name="hardiness">Hardiness<br>
+								<input type="number" min="0" name="vitality">Vitality<br>
+								<input type="number" min="0" name="karma">Karma<br>
+								<input type="number" name="arms-armor">Arms/Armor<br>
+								<input type="number" min="0" max="1" name="read-magic">Read Magic<br>
+								<input type="number" min="0" max="1" name="read-divine">Read Divine<br>
+								<input type="number" min="0" name="last-rites">Last Rites<br>
+								<input type="number" min="0" name="appraisal">Appraisal
+							</form>
+						</div>
+						<div class="finesse skills">
+							<p>A bunch of finesse skills!</p>
+							<form>
+								<input type="number" min="0" max="1"
+							</form>
+						</div>
+						<div class="might skills">
+							<p>A bunch of might skills!</p>
+						</div>
+						<div class="precision skills">
+							<p>Some precision skills.</p>
+						</div>
+						<div class="subtlety skills">
+							<p>Subtle skills here.</p>
+						</div>
+						<div class="power skills">
+							<p>Power skills!</p>
+						</div>
+						<div class="sight skills">
+							<p>See the sight skills?</p>
+						</div>
+						<div class="devotion skills">
+							<p>All the devotion skills.</p>
+						</div>
+						<div class="sanctity skills">
+							<p>Available sanctity skills.</p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="calculator-output">
+
+					<p class="description"></p>
+
+				</div>
+
+			</div><!-- /calculator -->
+
+			<div class="disclaimer">
+
+				<p>No part of this tool will be used for profit. This is just to enhance the fun of the hobby and streamline the character updating process.</p>
+			
+				<p>This tool may not be accurate or up to date, despite our best efforts. Use at your own risk!</p>
+			
+			</div><!-- /disclaimer -->
+
+		</div><!-- /main -->
+
+	</body>
+</html>
